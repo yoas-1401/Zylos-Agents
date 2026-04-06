@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>Zylos Agent – Digital Marketing Expert</title>
+  <link rel="icon" type="image/x-icon" href="Zyloslogo.png">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+
+    <!-- LOGO -->
+    <a href="#home" class="logo-wrap">
+      <svg class="logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="22" cy="22" r="21" stroke="url(#lg1)" stroke-width="2"/>
+        <path d="M12 16h14l-10 12h14" stroke="url(#lg2)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="32" cy="14" r="3" fill="url(#lg1)"/>
+        <defs>
+          <linearGradient id="lg1" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/>
+          </linearGradient>
+          <linearGradient id="lg2" x1="10" y1="14" x2="34" y2="30" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#a855f7"/><stop offset="1" stop-color="#06b6d4"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <span class="logo-text">Zylos<span>Agent</span></span>
+    </a>
+
+    <!-- NAV PILL CONTAINER -->
+    <div class="nav-pill-wrap" id="navPillWrap">
+      <!-- sliding magnetic highlight -->
+      <span class="nav-highlight" id="navHighlight"></span>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-item active" data-index="0">Home</a></li>
+        <li><a href="#about"    class="nav-item"        data-index="1">About</a></li>
+        <li><a href="#services" class="nav-item"        data-index="2">Services</a></li>
+        <li><a href="#work"     class="nav-item"        data-index="3">Our Work</a></li>
+        <li><a href="#pricing"  class="nav-item"        data-index="4">Pricing</a></li>
+        <li><a href="#stats"    class="nav-item"        data-index="5">Stats</a></li>
+        <li><a href="#contact"  class="nav-item"        data-index="6">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT CONTROLS -->
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <a href="tel:+251967474727" class="nav-call-btn">
+        <i class="fas fa-phone-volume"></i>
+        <span class="call-label">Call Us</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </nav>
+
+  <!-- MOBILE OVERLAY -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- MOBILE DRAWER -->
+  <div class="nav-drawer" id="navDrawer">
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu">
+      <i class="fas fa-times"></i>
+    </button>
+    <ul class="drawer-links">
+      <li><a href="#home"     class="drawer-item">Home</a></li>
+      <li><a href="#about"    class="drawer-item">About</a></li>
+      <li><a href="#services" class="drawer-item">Services</a></li>
+      <li><a href="#work"     class="drawer-item">Our Work</a></li>
+      <li><a href="#pricing"  class="drawer-item">Pricing</a></li>
+      <li><a href="#stats"    class="drawer-item">Stats</a></li>
+      <li><a href="#contact"  class="drawer-item">Contact</a></li>
+    </ul>
+    <a href="tel:+251967474727" class="drawer-call">
+      <i class="fas fa-phone-volume"></i> Call Us: +251 967 474 727
+    </a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tag">Digital Marketing Specialist</p>
+      <h1>Grow Your Brand<br/>with <span>Zylos Agent</span></h1>
+      <p class="hero-sub">Data-driven strategies. Real results. Let's scale your business to the next level.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Work With Me</a>
+        <a href="#stats" class="btn btn-outline">See Results</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-card card1"><i class="fas fa-chart-line"></i> +340% Reach</div>
+      <div class="floating-card card2"><i class="fas fa-users"></i> 50K+ Followers</div>
+      <div class="floating-card card3"><i class="fas fa-bullseye"></i> 98% ROI</div>
+      <div class="hero-circle"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-inner">
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2>Who is <span>Zylos Agent?</span></h2>
+        <p>I'm a passionate digital marketing expert helping brands grow their online presence through strategic content, targeted ads, and data-backed campaigns. With years of experience across multiple platforms, I turn followers into loyal customers.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle"></i> Social Media Strategy & Management</li>
+          <li><i class="fas fa-check-circle"></i> Paid Advertising (Meta, TikTok Ads)</li>
+          <li><i class="fas fa-check-circle"></i> Content Creation & Brand Identity</li>
+          <li><i class="fas fa-check-circle"></i> Analytics & Performance Reporting</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+      </div>
+      <div class="about-img">
+        <div class="img-placeholder">
+          <i class="fas fa-user-tie"></i>
+          <p>Zylos Agent</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <p class="section-label center">What I Offer</p>
+    <h2 class="center">My <span>Services</span></h2>
+    <div class="cards-grid">
+      <div class="service-card">
+        <div class="card-icon"><i class="fas fa-bullhorn"></i></div>
+        <h3>Social Media Marketing</h3>
+        <p>Build a powerful presence on Instagram, TikTok, Facebook & more with engaging content strategies.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-icon"><i class="fas fa-ad"></i></div>
+        <h3>Paid Ads Management</h3>
+        <p>Maximize your ad spend with precision-targeted campaigns that convert clicks into customers.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+        <h3>Analytics & Reporting</h3>
+        <p>Deep-dive into your data to understand what's working and optimize for better results.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-icon"><i class="fas fa-pen-nib"></i></div>
+        <h3>Content Creation</h3>
+        <p>Compelling visuals and copy that tell your brand story and drive real engagement.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-icon"><i class="fas fa-search"></i></div>
+        <h3>SEO & Growth Hacking</h3>
+        <p>Organic growth strategies that put your brand in front of the right audience at the right time.</p>
+      </div>
+      <div class="service-card">
+        <div class="card-icon"><i class="fas fa-envelope-open-text"></i></div>
+        <h3>Email Marketing</h3>
+        <p>Nurture leads and retain customers with high-converting email sequences and newsletters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR WORK -->
+  <section class="our-work" id="work">
+    <p class="section-label center">What We Do</p>
+    <h2 class="center">Our <span>Work</span></h2>
+    <p class="work-sub center">From strategy to execution — here's how we help brands grow.</p>
+    <div class="work-grid">
+
+      <div class="work-card">
+        <div class="work-icon-wrap">
+          <i class="fas fa-share-nodes"></i>
+        </div>
+        <div class="work-content">
+          <h3>Social Media Management</h3>
+          <p>We handle your daily posting, community engagement, and platform growth across Instagram, TikTok, Facebook & Telegram so you can focus on your business.</p>
+          <ul class="work-tags">
+            <li>Content Calendar</li><li>Daily Posting</li><li>Community Growth</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-icon-wrap">
+          <i class="fas fa-magnet"></i>
+        </div>
+        <div class="work-content">
+          <h3>Client Attraction</h3>
+          <p>We build targeted funnels and lead generation systems that bring the right clients to your door — not just traffic, but buyers ready to convert.</p>
+          <ul class="work-tags">
+            <li>Lead Funnels</li><li>Audience Targeting</li><li>Conversion Optimization</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-icon-wrap">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <div class="work-content">
+          <h3>Marketing Campaigns</h3>
+          <p>Full-scale campaigns from concept to launch — paid ads, organic reach, influencer tie-ins, and performance tracking all under one roof.</p>
+          <ul class="work-tags">
+            <li>Meta Ads</li><li>TikTok Ads</li><li>Campaign Analytics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-icon-wrap">
+          <i class="fas fa-palette"></i>
+        </div>
+        <div class="work-content">
+          <h3>Graphic Design</h3>
+          <p>Eye-catching visuals that stop the scroll — logos, banners, social posts, brand kits, and everything in between designed to make your brand unforgettable.</p>
+          <ul class="work-tags">
+            <li>Brand Identity</li><li>Social Graphics</li><li>Print & Digital</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-icon-wrap">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+        <div class="work-content">
+          <h3>Website Design</h3>
+          <p>Fast, modern, mobile-first websites that convert visitors into customers. We design and build sites that look great and perform even better.</p>
+          <ul class="work-tags">
+            <li>Landing Pages</li><li>Portfolio Sites</li><li>E-commerce</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-icon-wrap">
+          <i class="fas fa-camera"></i>
+        </div>
+        <div class="work-content">
+          <h3>Photography</h3>
+          <p>Professional product, brand, and lifestyle photography that tells your story visually and gives your marketing content the quality edge it deserves.</p>
+          <ul class="work-tags">
+            <li>Product Shoots</li><li>Brand Photography</li><li>Content for Ads</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <p class="section-label center">Transparent Pricing</p>
+    <h2 class="center">Choose Your <span>Plan</span></h2>
+    <p class="pricing-sub center">No hidden fees. Pick the package that fits your goals and let's get to work.</p>
+
+    <div class="pricing-grid">
+
+      <!-- STARTER -->
+      <div class="pricing-card">
+        <div class="plan-header">
+          <div class="plan-icon"><i class="fas fa-seedling"></i></div>
+          <h3>Starter</h3>
+          <p class="plan-desc">Perfect for new brands getting off the ground.</p>
+        </div>
+        <div class="plan-price">
+          <span class="price-amount">$199</span>
+          <span class="price-period">/ month</span>
+        </div>
+        <ul class="plan-features">
+          <li><i class="fas fa-check"></i> Social Media Management (2 platforms)</li>
+          <li><i class="fas fa-check"></i> 12 Posts per Month</li>
+          <li><i class="fas fa-check"></i> Basic Graphic Design</li>
+          <li><i class="fas fa-check"></i> Monthly Performance Report</li>
+          <li><i class="fas fa-check"></i> Community Engagement</li>
+          <li class="disabled"><i class="fas fa-times"></i> Paid Ad Campaigns</li>
+          <li class="disabled"><i class="fas fa-times"></i> Website Design</li>
+          <li class="disabled"><i class="fas fa-times"></i> Photography Session</li>
+        </ul>
+        <a href="tel:+251967474727" class="plan-call-btn">
+          <i class="fas fa-phone-volume"></i> Call to Get Started
+        </a>
+      </div>
+
+      <!-- GROWTH (POPULAR) -->
+      <div class="pricing-card popular">
+        <div class="popular-badge"><i class="fas fa-fire"></i> Most Popular</div>
+        <div class="plan-header">
+          <div class="plan-icon"><i class="fas fa-rocket"></i></div>
+          <h3>Growth</h3>
+          <p class="plan-desc">For brands ready to scale fast and dominate their niche.</p>
+        </div>
+        <div class="plan-price">
+          <span class="price-amount">$499</span>
+          <span class="price-period">/ month</span>
+        </div>
+        <ul class="plan-features">
+          <li><i class="fas fa-check"></i> Social Media Management (4 platforms)</li>
+          <li><i class="fas fa-check"></i> 25 Posts per Month</li>
+          <li><i class="fas fa-check"></i> Advanced Graphic Design</li>
+          <li><i class="fas fa-check"></i> Weekly Performance Reports</li>
+          <li><i class="fas fa-check"></i> Paid Ad Campaigns (Meta + TikTok)</li>
+          <li><i class="fas fa-check"></i> Client Attraction Funnel</li>
+          <li><i class="fas fa-check"></i> 1 Photography Session / month</li>
+          <li class="disabled"><i class="fas fa-times"></i> Website Design</li>
+        </ul>
+        <a href="tel:+251967474727" class="plan-call-btn popular-call">
+          <i class="fas fa-phone-volume"></i> Call to Get Started
+        </a>
+      </div>
+
+      <!-- PRO -->
+      <div class="pricing-card">
+        <div class="plan-header">
+          <div class="plan-icon"><i class="fas fa-crown"></i></div>
+          <h3>Pro</h3>
+          <p class="plan-desc">Full-service marketing for serious businesses.</p>
+        </div>
+        <div class="plan-price">
+          <span class="price-amount">$999</span>
+          <span class="price-period">/ month</span>
+        </div>
+        <ul class="plan-features">
+          <li><i class="fas fa-check"></i> All Platforms Managed</li>
+          <li><i class="fas fa-check"></i> Unlimited Posts & Stories</li>
+          <li><i class="fas fa-check"></i> Full Brand Identity Design</li>
+          <li><i class="fas fa-check"></i> Daily Performance Tracking</li>
+          <li><i class="fas fa-check"></i> Full Ad Campaign Management</li>
+          <li><i class="fas fa-check"></i> Website Design & Launch</li>
+          <li><i class="fas fa-check"></i> 2 Photography Sessions / month</li>
+          <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+        </ul>
+        <a href="tel:+251967474727" class="plan-call-btn">
+          <i class="fas fa-phone-volume"></i> Call to Get Started
+        </a>
+      </div>
+
+      <!-- CUSTOM -->
+      <div class="pricing-card custom-card">
+        <div class="plan-header">
+          <div class="plan-icon"><i class="fas fa-sliders"></i></div>
+          <h3>Custom</h3>
+          <p class="plan-desc">Need something tailored? Let's build the perfect package for you.</p>
+        </div>
+        <div class="plan-price">
+          <span class="price-amount">Let's Talk</span>
+        </div>
+        <ul class="plan-features">
+          <li><i class="fas fa-check"></i> Everything in Pro</li>
+          <li><i class="fas fa-check"></i> Custom Campaign Strategy</li>
+          <li><i class="fas fa-check"></i> Multi-brand Management</li>
+          <li><i class="fas fa-check"></i> Priority 24/7 Support</li>
+          <li><i class="fas fa-check"></i> Influencer Partnerships</li>
+          <li><i class="fas fa-check"></i> Custom Reporting Dashboard</li>
+        </ul>
+        <a href="tel:+251967474727" class="plan-call-btn custom-call">
+          <i class="fas fa-phone-volume"></i> Call Us Now
+        </a>
+      </div>
+
+    </div>
+
+    <p class="pricing-note center"><i class="fas fa-info-circle"></i> All plans include a free 30-minute strategy call. Prices are negotiable — just reach out.</p>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section" id="stats">
+    <p class="section-label center">Proven Results</p>
+    <h2 class="center">Growth <span>Statistics</span></h2>
+
+    <div class="stats-numbers">
+      <div class="stat-item">
+        <span class="stat-num" data-target="340">0</span><span>%</span>
+        <p>Average Reach Growth</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="50">0</span><span>K+</span>
+        <p>Followers Gained</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="98">0</span><span>%</span>
+        <p>Client Satisfaction</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="120">0</span><span>+</span>
+        <p>Campaigns Launched</p>
+      </div>
+    </div>
+
+    <!-- BAR CHART -->
+    <div class="chart-container" id="barChartContainer">
+      <h3>Monthly Follower Growth</h3>
+      <div class="bar-chart">
+        <div class="bar-wrap" style="--h:40%"><div class="bar" data-val="4K"><span class="bar-val">4K</span></div><span>Jan</span></div>
+        <div class="bar-wrap" style="--h:55%"><div class="bar" data-val="5.5K"><span class="bar-val">5.5K</span></div><span>Feb</span></div>
+        <div class="bar-wrap" style="--h:50%"><div class="bar" data-val="5K"><span class="bar-val">5K</span></div><span>Mar</span></div>
+        <div class="bar-wrap" style="--h:70%"><div class="bar" data-val="7K"><span class="bar-val">7K</span></div><span>Apr</span></div>
+        <div class="bar-wrap" style="--h:65%"><div class="bar" data-val="6.5K"><span class="bar-val">6.5K</span></div><span>May</span></div>
+        <div class="bar-wrap" style="--h:80%"><div class="bar" data-val="8K"><span class="bar-val">8K</span></div><span>Jun</span></div>
+        <div class="bar-wrap" style="--h:75%"><div class="bar" data-val="7.5K"><span class="bar-val">7.5K</span></div><span>Jul</span></div>
+        <div class="bar-wrap" style="--h:90%"><div class="bar" data-val="9K"><span class="bar-val">9K</span></div><span>Aug</span></div>
+        <div class="bar-wrap" style="--h:85%"><div class="bar" data-val="8.5K"><span class="bar-val">8.5K</span></div><span>Sep</span></div>
+        <div class="bar-wrap" style="--h:95%"><div class="bar" data-val="9.5K"><span class="bar-val">9.5K</span></div><span>Oct</span></div>
+        <div class="bar-wrap" style="--h:88%"><div class="bar" data-val="8.8K"><span class="bar-val">8.8K</span></div><span>Nov</span></div>
+        <div class="bar-wrap" style="--h:100%"><div class="bar" data-val="10K"><span class="bar-val">10K</span></div><span>Dec</span></div>
+      </div>
+    </div>
+
+    <!-- LINE CHART (SVG) -->
+    <div class="chart-container">
+      <h3>Engagement Rate Over Time (%)</h3>
+      <div class="line-chart-wrap">
+        <svg viewBox="0 0 700 200" class="line-chart-svg" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.4"/>
+              <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path class="line-fill" d="M0,160 L58,140 L116,145 L175,120 L233,125 L291,100 L350,105 L408,80 L466,85 L525,60 L583,65 L641,40 L700,45 L700,200 L0,200 Z"/>
+          <path class="line-path" d="M0,160 L58,140 L116,145 L175,120 L233,125 L291,100 L350,105 L408,80 L466,85 L525,60 L583,65 L641,40 L700,45"/>
+          <circle class="dot" cx="0" cy="160" r="5"/>
+          <circle class="dot" cx="58" cy="140" r="5"/>
+          <circle class="dot" cx="116" cy="145" r="5"/>
+          <circle class="dot" cx="175" cy="120" r="5"/>
+          <circle class="dot" cx="233" cy="125" r="5"/>
+          <circle class="dot" cx="291" cy="100" r="5"/>
+          <circle class="dot" cx="350" cy="105" r="5"/>
+          <circle class="dot" cx="408" cy="80" r="5"/>
+          <circle class="dot" cx="466" cy="85" r="5"/>
+          <circle class="dot" cx="525" cy="60" r="5"/>
+          <circle class="dot" cx="583" cy="65" r="5"/>
+          <circle class="dot" cx="641" cy="40" r="5"/>
+          <circle class="dot" cx="700" cy="45" r="5"/>
+        </svg>
+        <div class="line-labels">
+          <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span>
+          <span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span>
+          <span>Nov</span><span>Dec</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AREA CHART — ROI vs Spend -->
+    <div class="chart-container" id="areaChartContainer">
+      <h3>ROI vs Ad Spend (Monthly)</h3>
+      <div class="area-chart-wrap">
+        <svg viewBox="0 0 700 180" class="area-chart-svg" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="areaGrad1" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#10b981" stop-opacity="0.45"/>
+              <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="areaGrad2" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path class="area-fill area-fill-1" d="M0,140 L58,120 L116,110 L175,90 L233,95 L291,70 L350,75 L408,50 L466,55 L525,30 L583,35 L641,15 L700,20 L700,180 L0,180 Z"/>
+          <path class="area-fill area-fill-2" d="M0,160 L58,150 L116,148 L175,135 L233,138 L291,122 L350,125 L408,108 L466,112 L525,95 L583,98 L641,80 L700,82 L700,180 L0,180 Z"/>
+          <path class="area-line area-line-1" d="M0,140 L58,120 L116,110 L175,90 L233,95 L291,70 L350,75 L408,50 L466,55 L525,30 L583,35 L641,15 L700,20"/>
+          <path class="area-line area-line-2" d="M0,160 L58,150 L116,148 L175,135 L233,138 L291,122 L350,125 L408,108 L466,112 L525,95 L583,98 L641,80 L700,82"/>
+        </svg>
+        <div class="area-legend">
+          <span class="area-leg-item roi"><span></span> ROI Growth</span>
+          <span class="area-leg-item spend"><span></span> Ad Spend</span>
+        </div>
+        <div class="line-labels">
+          <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span>
+          <span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span>
+          <span>Nov</span><span>Dec</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- DONUT CHART -->
+      <h3>Platform Distribution</h3>
+      <div class="donut-wrap">
+        <svg viewBox="0 0 200 200" class="donut-svg">
+          <circle class="donut-ring" cx="100" cy="100" r="70" fill="none" stroke-width="30"/>
+          <circle class="donut-seg seg1" cx="100" cy="100" r="70" fill="none" stroke-width="30"
+            stroke-dasharray="110 330" stroke-dashoffset="0"/>
+          <circle class="donut-seg seg2" cx="100" cy="100" r="70" fill="none" stroke-width="30"
+            stroke-dasharray="88 352" stroke-dashoffset="-110"/>
+          <circle class="donut-seg seg3" cx="100" cy="100" r="70" fill="none" stroke-width="30"
+            stroke-dasharray="66 374" stroke-dashoffset="-198"/>
+          <circle class="donut-seg seg4" cx="100" cy="100" r="70" fill="none" stroke-width="30"
+            stroke-dasharray="176 264" stroke-dashoffset="-264"/>
+          <text x="100" y="105" text-anchor="middle" class="donut-label">Platforms</text>
+        </svg>
+        <div class="donut-legend">
+          <div class="legend-item"><span class="dot1"></span> Instagram 25%</div>
+          <div class="legend-item"><span class="dot2"></span> TikTok 20%</div>
+          <div class="legend-item"><span class="dot3"></span> Facebook 15%</div>
+          <div class="legend-item"><span class="dot4"></span> Telegram 40%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TIPS -->
+    <div class="tips-grid">
+      <div class="tip-card"><i class="fas fa-lightbulb"></i><h4>Post Consistently</h4><p>Brands that post 5–7x/week see 3x more engagement than those posting once.</p></div>
+      <div class="tip-card"><i class="fas fa-clock"></i><h4>Timing Matters</h4><p>Post between 6–9 PM local time for maximum reach on most platforms.</p></div>
+      <div class="tip-card"><i class="fas fa-hashtag"></i><h4>Use Niche Hashtags</h4><p>Targeted hashtags outperform generic ones by 60% in discoverability.</p></div>
+      <div class="tip-card"><i class="fas fa-video"></i><h4>Short-Form Video Wins</h4><p>Reels and TikToks get 5x more reach than static posts on average.</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="section-label center">Get In Touch</p>
+    <h2 class="center">Contact <span>Me</span></h2>
+    <div class="contact-inner">
+      <div class="contact-info">
+        <h3>Let's Work Together</h3>
+        <p>Ready to grow your brand? Reach out through any of these channels and let's make it happen.</p>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <a href="tel:+251967474727" class="call-btn">
+            <i class="fas fa-phone-volume"></i>
+            Call Us: +251 967 474 727
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://t.me/zylosagents" target="_blank" class="social-btn telegram" id="link-telegram"><i class="fab fa-telegram"></i> Telegram</a>
+          <a href="https://www.tiktok.com/@zylosagents?_r=1&_t=ZT-95Jxke3KkFa" target="_blank" class="social-btn tiktok" id="link-tiktok"><i class="fab fa-tiktok"></i> TikTok</a>
+          <a href="https://www.instagram.com/zylosagents?igsh=MTdmajFrdjhtbDZycQ==" target="_blank" class="social-btn instagram" id="link-instagram"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.facebook.com/share/1Mdh7bQ6Zo/" target="_blank" class="social-btn facebook" id="link-facebook"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="https://youtube.com/@ZylosAgent" target="_blank" class="social-btn youtube" id="link-youtube"><i class="fab fa-youtube"></i> YouTube</a>
+          <a href="https://x.com/zylosagents" target="_blank" class="social-btn xtwitter" id="link-xtwitter"><i class="fa-brands fa-x-twitter"></i> X (Twitter)</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Your Email" required/>
+        <input type="text" placeholder="Subject"/>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <a href="#home" class="logo-wrap footer-logo">
+        <svg class="logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="22" cy="22" r="21" stroke="url(#lg3)" stroke-width="2"/>
+          <path d="M12 16h14l-10 12h14" stroke="url(#lg4)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="32" cy="14" r="3" fill="url(#lg3)"/>
+          <defs>
+            <linearGradient id="lg3" x1="0" y1="0" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/>
+            </linearGradient>
+            <linearGradient id="lg4" x1="10" y1="14" x2="34" y2="30" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#a855f7"/><stop offset="1" stop-color="#06b6d4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="logo-text">Zylos<span>Agent</span></span>
+      </a>
+      <p>Digital Marketing Expert · Growing Brands Since Day One</p>
+      <div class="footer-socials">
+        <a href="https://t.me/ZylosAgent" target="_blank" id="ft-telegram"><i class="fab fa-telegram"></i></a>
+        <a href="https://tiktok.com/@ZylosAgent" target="_blank" id="ft-tiktok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://instagram.com/ZylosAgent" target="_blank" id="ft-instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/ZylosAgent" target="_blank" id="ft-facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://youtube.com/@ZylosAgent" target="_blank" id="ft-youtube"><i class="fab fa-youtube"></i></a>
+        <a href="https://x.com/ZylosAgent" target="_blank" id="ft-xtwitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://meta.ai" target="_blank" id="ft-meta"><i class="fas fa-infinity"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Zylos Agent. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- ===== ADMIN PANEL ===== -->
+  <div class="admin-fab" id="adminFab" title="Site Manager">
+    <i class="fas fa-sliders"></i>
+    <span class="admin-fab-label">Manage</span>
+  </div>
+
+  <div class="admin-overlay" id="adminOverlay"></div>
+
+  <div class="admin-panel" id="adminPanel">
+
+    <!-- HEADER -->
+    <div class="admin-header">
+      <div class="admin-title"><i class="fas fa-sliders"></i> Zylos Site Manager</div>
+      <div class="admin-header-actions">
+        <button class="admin-icon-btn" id="adminExport" title="Export DB"><i class="fas fa-download"></i></button>
+        <label class="admin-icon-btn" title="Import DB"><i class="fas fa-upload"></i><input type="file" id="adminImport" accept=".json" style="display:none"/></label>
+        <button class="admin-icon-btn admin-logout" id="adminLogout" title="Logout" style="display:none"><i class="fas fa-sign-out-alt"></i></button>
+        <button class="admin-icon-btn admin-close-btn" id="adminClose" title="Close"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="admin-login" id="adminLogin">
+      <div class="admin-login-inner">
+        <div class="admin-login-icon"><i class="fas fa-lock"></i></div>
+        <h3>Admin Access</h3>
+        <p class="admin-hint">Enter your password to manage site content.</p>
+        <div class="admin-field">
+          <input type="password" id="adminPass" placeholder="Password" autocomplete="current-password"/>
+        </div>
+        <button class="admin-btn-primary full" id="adminLoginBtn"><i class="fas fa-unlock"></i> Login</button>
+        <p class="admin-error" id="adminError"></p>
+      </div>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="admin-dash" id="adminDash" style="display:none">
+
+      <div class="admin-tabs" id="adminTabs">
+        <button class="atab active" data-tab="visibility"><i class="fas fa-eye"></i> Sections</button>
+        <button class="atab" data-tab="hero"><i class="fas fa-home"></i> Hero</button>
+        <button class="atab" data-tab="about"><i class="fas fa-user"></i> About</button>
+        <button class="atab" data-tab="stats"><i class="fas fa-chart-bar"></i> Stats</button>
+        <button class="atab" data-tab="services"><i class="fas fa-cogs"></i> Services</button>
+        <button class="atab" data-tab="pricing"><i class="fas fa-tag"></i> Pricing</button>
+        <button class="atab" data-tab="social"><i class="fas fa-share-alt"></i> Social</button>
+        <button class="atab" data-tab="contact"><i class="fas fa-phone"></i> Contact</button>
+        <button class="atab" data-tab="seo"><i class="fas fa-search"></i> SEO</button>
+        <button class="atab" data-tab="announce"><i class="fas fa-bullhorn"></i> Banner</button>
+      </div>
+
+      <!-- SECTIONS VISIBILITY -->
+      <div class="atab-content active" id="tab-visibility">
+        <h4><i class="fas fa-eye"></i> Show / Hide Sections</h4>
+        <p class="admin-hint">Toggle any section on or off. Changes apply instantly.</p>
+        <div class="toggle-list">
+          <div class="toggle-row"><span>Hero</span><label class="toggle-switch"><input type="checkbox" id="vis-home" checked onchange="toggleSection('home',this.checked)"/><span></span></label></div>
+          <div class="toggle-row"><span>About</span><label class="toggle-switch"><input type="checkbox" id="vis-about" checked onchange="toggleSection('about',this.checked)"/><span></span></label></div>
+          <div class="toggle-row"><span>Services</span><label class="toggle-switch"><input type="checkbox" id="vis-services" checked onchange="toggleSection('services',this.checked)"/><span></span></label></div>
+          <div class="toggle-row"><span>Our Work</span><label class="toggle-switch"><input type="checkbox" id="vis-work" checked onchange="toggleSection('work',this.checked)"/><span></span></label></div>
+          <div class="toggle-row"><span>Pricing</span><label class="toggle-switch"><input type="checkbox" id="vis-pricing" checked onchange="toggleSection('pricing',this.checked)"/><span></span></label></div>
+          <div class="toggle-row"><span>Stats</span><label class="toggle-switch"><input type="checkbox" id="vis-stats" checked onchange="toggleSection('stats',this.checked)"/><span></span></label></div>
+          <div class="toggle-row"><span>Contact</span><label class="toggle-switch"><input type="checkbox" id="vis-contact" checked onchange="toggleSection('contact',this.checked)"/><span></span></label></div>
+        </div>
+        <button class="admin-btn-primary" onclick="adminSave('visibility')"><i class="fas fa-save"></i> Save</button>
+      </div>
+
+      <!-- HERO TAB -->
+      <div class="atab-content" id="tab-hero">
+        <h4><i class="fas fa-home"></i> Hero Section</h4>
+        <div class="admin-field"><label>Tag Line</label><input type="text" id="db-hero-tag" placeholder="Digital Marketing Specialist"/></div>
+        <div class="admin-field"><label>Headline (use | for line break)</label><input type="text" id="db-hero-h1" placeholder="Grow Your Brand|with Zylos Agent"/></div>
+        <div class="admin-field"><label>Sub Text</label><input type="text" id="db-hero-sub" placeholder="Data-driven strategies..."/></div>
+        <div class="admin-field"><label>Primary Button Text</label><input type="text" id="db-hero-btn1" placeholder="Work With Me"/></div>
+        <div class="admin-field"><label>Secondary Button Text</label><input type="text" id="db-hero-btn2" placeholder="See Results"/></div>
+        <button class="admin-btn-primary" onclick="adminSave('hero')"><i class="fas fa-save"></i> Save Hero</button>
+      </div>
+
+      <!-- ABOUT TAB -->
+      <div class="atab-content" id="tab-about">
+        <h4><i class="fas fa-user"></i> About Section</h4>
+        <div class="admin-field"><label>Headline</label><input type="text" id="db-about-h2" placeholder="Who is Zylos Agent?"/></div>
+        <div class="admin-field"><label>Bio Text</label><textarea id="db-about-bio" rows="4" placeholder="I'm a passionate digital marketing expert..."></textarea></div>
+        <div class="admin-field"><label>Name on Avatar</label><input type="text" id="db-about-name" placeholder="Zylos Agent"/></div>
+        <button class="admin-btn-primary" onclick="adminSave('about')"><i class="fas fa-save"></i> Save About</button>
+      </div>
+
+      <!-- STATS TAB -->
+      <div class="atab-content" id="tab-stats">
+        <h4><i class="fas fa-chart-bar"></i> Stats Numbers</h4>
+        <div class="admin-grid">
+          <div class="admin-field"><label>Reach Growth (%)</label><input type="number" id="db-reach" placeholder="340"/></div>
+          <div class="admin-field"><label>Followers Gained (K)</label><input type="number" id="db-followers" placeholder="50"/></div>
+          <div class="admin-field"><label>Client Satisfaction (%)</label><input type="number" id="db-satisfaction" placeholder="98"/></div>
+          <div class="admin-field"><label>Campaigns Launched</label><input type="number" id="db-campaigns" placeholder="120"/></div>
+        </div>
+        <button class="admin-btn-primary" onclick="adminSave('stats')"><i class="fas fa-save"></i> Save Stats</button>
+      </div>
+
+      <!-- SERVICES TAB -->
+      <div class="atab-content" id="tab-services">
+        <h4><i class="fas fa-cogs"></i> Manage Services</h4>
+        <div id="services-list" class="admin-list"></div>
+        <div class="admin-divider"></div>
+        <p class="admin-hint">Add a new service card</p>
+        <div class="admin-field"><label>Title</label><input type="text" id="new-service-title" placeholder="Service title"/></div>
+        <div class="admin-field"><label>Description</label><input type="text" id="new-service-desc" placeholder="Short description"/></div>
+        <div class="admin-field"><label>Icon (FA class)</label><input type="text" id="new-service-icon" placeholder="fa-bullhorn"/></div>
+        <button class="admin-btn-primary" onclick="adminAddService()"><i class="fas fa-plus"></i> Add Service</button>
+      </div>
+
+      <!-- PRICING TAB -->
+      <div class="atab-content" id="tab-pricing">
+        <h4><i class="fas fa-tag"></i> Pricing Plans</h4>
+        <div id="pricing-list" class="admin-list"></div>
+        <div class="admin-divider"></div>
+        <p class="admin-hint">Add a custom plan</p>
+        <div class="admin-field"><label>Plan Name</label><input type="text" id="new-plan-name" placeholder="Enterprise"/></div>
+        <div class="admin-field"><label>Price</label><input type="text" id="new-plan-price" placeholder="$1,499/mo"/></div>
+        <div class="admin-field"><label>Description</label><input type="text" id="new-plan-desc" placeholder="For large teams..."/></div>
+        <button class="admin-btn-primary" onclick="adminAddPlan()"><i class="fas fa-plus"></i> Add Plan</button>
+      </div>
+
+      <!-- SOCIAL TAB -->
+      <div class="atab-content" id="tab-social">
+        <h4><i class="fas fa-share-alt"></i> Social Links</h4>
+        <div class="admin-grid">
+          <div class="admin-field"><label><i class="fab fa-telegram"></i> Telegram</label><input type="url" id="db-telegram" placeholder="https://t.me/YourHandle"/></div>
+          <div class="admin-field"><label><i class="fab fa-tiktok"></i> TikTok</label><input type="url" id="db-tiktok" placeholder="https://tiktok.com/@YourHandle"/></div>
+          <div class="admin-field"><label><i class="fab fa-instagram"></i> Instagram</label><input type="url" id="db-instagram" placeholder="https://instagram.com/YourHandle"/></div>
+          <div class="admin-field"><label><i class="fab fa-facebook"></i> Facebook</label><input type="url" id="db-facebook" placeholder="https://facebook.com/YourHandle"/></div>
+          <div class="admin-field"><label><i class="fab fa-youtube"></i> YouTube</label><input type="url" id="db-youtube" placeholder="https://youtube.com/@YourHandle"/></div>
+          <div class="admin-field"><label><i class="fa-brands fa-x-twitter"></i> X (Twitter)</label><input type="url" id="db-xtwitter" placeholder="https://x.com/YourHandle"/></div>
+          <div class="admin-field"><label><i class="fas fa-infinity"></i> Meta</label><input type="url" id="db-meta" placeholder="https://meta.ai or your Meta page"/></div>
+        </div>
+        <button class="admin-btn-primary" onclick="adminSave('social')"><i class="fas fa-save"></i> Save Links</button>
+      </div>
+
+      <!-- CONTACT TAB -->
+      <div class="atab-content" id="tab-contact">
+        <h4><i class="fas fa-phone"></i> Contact Info</h4>
+        <div class="admin-field"><label>Phone Number</label><input type="text" id="db-phone" placeholder="+251 967 474 727"/></div>
+        <div class="admin-field"><label>Email Address</label><input type="email" id="db-email" placeholder="hello@zylosagent.com"/></div>
+        <div class="admin-field"><label>Section Heading</label><input type="text" id="db-contact-h3" placeholder="Let's Work Together"/></div>
+        <div class="admin-field"><label>Sub Text</label><input type="text" id="db-contact-sub" placeholder="Ready to grow your brand?..."/></div>
+        <button class="admin-btn-primary" onclick="adminSave('contact')"><i class="fas fa-save"></i> Save Contact</button>
+      </div>
+
+      <!-- SEO TAB -->
+      <div class="atab-content" id="tab-seo">
+        <h4><i class="fas fa-search"></i> SEO &amp; Meta</h4>
+        <div class="admin-field"><label>Page Title</label><input type="text" id="db-seo-title" placeholder="Zylos Agent – Digital Marketing Expert"/></div>
+        <div class="admin-field"><label>Meta Description</label><textarea id="db-seo-desc" rows="3" placeholder="Data-driven digital marketing..."></textarea></div>
+        <div class="admin-field"><label>Keywords (comma separated)</label><input type="text" id="db-seo-keywords" placeholder="digital marketing, social media, ads"/></div>
+        <button class="admin-btn-primary" onclick="adminSave('seo')"><i class="fas fa-save"></i> Save SEO</button>
+      </div>
+
+      <!-- ANNOUNCEMENT TAB -->
+      <div class="atab-content" id="tab-announce">
+        <h4><i class="fas fa-bullhorn"></i> Announcement Banner</h4>
+        <div class="admin-field"><label>Message</label><input type="text" id="db-announce-msg" placeholder="🎉 New service launched!"/></div>
+        <div class="admin-field"><label>Link URL (optional)</label><input type="url" id="db-announce-url" placeholder="https://..."/></div>
+        <div class="admin-field"><label>Link Text</label><input type="text" id="db-announce-link-text" placeholder="Learn more"/></div>
+        <div class="admin-field"><label>Color</label><input type="color" id="db-announce-color" value="#7c3aed"/></div>
+        <div class="toggle-row"><span>Show Banner</span><label class="toggle-switch"><input type="checkbox" id="db-announce-show"/><span></span></label></div>
+        <button class="admin-btn-primary" onclick="adminSave('announce')"><i class="fas fa-save"></i> Save &amp; Apply</button>
+      </div>
+
+      <div class="admin-saved" id="adminSaved"><i class="fas fa-check-circle"></i> Saved!</div>
+    </div>
+  </div>
+
+  <!-- ANNOUNCEMENT BANNER -->
+  <div class="announce-bar" id="announceBar" style="display:none"></div>
+
+</body>
+</html>
